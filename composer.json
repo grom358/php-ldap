@@ -1,0 +1,21 @@
+{
+  "name": "grom358/php-ldap",
+  "description": "Object Oriented LDAP wrapper for PHP",
+  "type": "library",
+  "keywords": [
+    "ldap"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cameron Zemek",
+      "role": "lead"
+    }
+  ],
+  "autoload": {
+    "psr-4" : {"Ldap\\": "src/"}
+  },
+  "require": {
+    "php": ">=5.4"
+  }
+}
